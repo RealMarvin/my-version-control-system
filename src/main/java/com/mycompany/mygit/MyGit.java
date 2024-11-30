@@ -143,6 +143,9 @@ public class MyGit {
             System.out.println("Cloning the repository...");
             cloneRepository(".", "myClonedRepo");
 
+            // Test ignored files
+            FileHandler.addToIndex("myLogs.log"); // Should be ignored if in .mygitignore
+
         } catch (Exception e) {
             e.printStackTrace();
         }
