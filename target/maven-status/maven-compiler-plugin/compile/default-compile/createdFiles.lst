@@ -1,0 +1,7 @@
+com\mycompany\mygit\Branch.class
+com\mycompany\mygit\FileHandler.class
+com\mycompany\mygit\Log.class
+com\mycompany\mygit\Diff.class
+com\mycompany\mygit\Commit.class
+com\mycompany\mygit\Merge.class
+com\mycompany\mygit\MyGit.class
