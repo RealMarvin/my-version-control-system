@@ -144,7 +144,7 @@ public class MyGit {
             cloneRepository(".", "myClonedRepo");
 
             // Test ignored files
-            FileHandler.addToIndex("myLogs.log"); // Should be ignored if in .mygitignore
+            FileHandler.addToIndex("myLogs.log"); // .mygitignore should ensure this file is ignored since all .log files are ignored
 
         } catch (Exception e) {
             e.printStackTrace();
